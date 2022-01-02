@@ -93,7 +93,27 @@ Getting started instructions coming soon
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Include the client
+```php
+require 'CLIENT_LOCATION/cytawebsmsapi-client/client/client.php';
+```
+
+Call the `cytawebsms_create_request` function and define *recipients*(array) & *message*(string)
+```php
+cytawebsms_create_request($recipients, $message);
+```
+
+The client will return an array in this format
+*e.g. success example*
+```php
+array(
+        "api_success" => true,
+        "status_message" => "Send Sms success",
+        "status_code" => "0",
+        "lot" => "XXXXXXXXXX"
+);
+```
+_For more examples, please refer to the [Documentation](https://github.com/dimitrist19/cytawebsmsapi-client/wiki)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -102,7 +122,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/dimitrist19/cytawebsmsapi-client/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
