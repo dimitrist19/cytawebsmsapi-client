@@ -63,9 +63,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]()
+A simple api client for PHP applications where you can easily call a function to send sms through the Cyta Web SMS Platform and receive it's status code
 
-Description will be put here soon
+[Sample Interface](/interface)
+
+<img src="interface/Screenshots/Error.png" alt="Screenshot1" height="100%" width="100%">
+
+<img src="interface/Screenshots/Success.png" alt="Screenshot2" height="100%" width="100%">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -121,7 +125,6 @@ _For more examples, please refer to the [Documentation](https://github.com/dimit
 
 <!-- ROADMAP -->
 ## Roadmap
-
 See the [open issues](https://github.com/dimitrist19/cytawebsmsapi-client/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
