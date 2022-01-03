@@ -88,7 +88,17 @@ A simple api client for PHP applications where you can easily call a function to
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Getting started instructions coming soon
+### Obtaining Web Sms Api Keys
+
+Login to MyCyta and visit [https://www.cyta.com.cy/web-sms-api/](https://www.cyta.com.cy/web-sms-api/). Enable the api and copy username and secret key. Then open `configuration.php` in client and enter details
+```php
+$websmsapi_config = array(
+    "version" => "1.0",
+    "username" => "ENTER_USERNAME_HERE", //Enter Cyta Web Sms Sender Username
+    "apiKey" => "xxxxxxxxxxxxxxxxx", // Enter Cyta Web Sms Sender Api Key 
+    "language" => "el"
+);
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
