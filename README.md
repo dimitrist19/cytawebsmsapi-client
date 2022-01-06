@@ -8,7 +8,6 @@
 
 
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/dimitrist19/cytawebsmsapi-client">
@@ -187,4 +186,3 @@ Project Link: [https://github.com/dimitrist19/cytawebsmsapi-client](https://gith
 [issues-url]: https://github.com/dimitrist19/cytawebsmsapi-client/issues
 [license-shield]: https://img.shields.io/github/license/dimitrist19/cytawebsmsapi-client.svg?style=for-the-badge
 [license-url]: https://github.com/dimitrist19/cytawebsmsapi-client/blob/master/LICENSE.md
-[product-screenshot]: https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png
